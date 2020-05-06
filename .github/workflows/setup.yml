@@ -29,7 +29,7 @@ jobs:
       - name: First issue
         uses: peter-evans/create-issue-from-file@v2
         with:
-          title: An example issue
-          content-filepath: ./inst/issue_01.md
+          title: An second example issue
+          content-filepath: issues_to_create/issue_01.md
           assignees: lindsayplatt
         
