@@ -30,6 +30,6 @@ jobs:
         uses: peter-evans/create-issue-from-file@v2
         with:
           title: An second example issue
-          content-filepath: issues_to_create/issue_01.md
+          content-filepath: ./.github/issues_to_create/issue_01.md
           assignees: lindsayplatt
         
