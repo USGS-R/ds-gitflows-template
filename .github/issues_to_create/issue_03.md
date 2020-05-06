@@ -14,4 +14,4 @@ The next step in our workflow is to clone your fork. This creates a local copy o
 6. Type `git clone [insert URL]` and hit enter, e.g. `git clone git@github.com:[username]/ds-gitflows-[username].git`. Note that you cannot CTRL+V to paste into Git Bash. Right click and choose paste instead.
 7. A new folder with the same name as the repository is now available in your working directory. In the folder, you will find the same files and file structure that you can see on GitHub.
 
-You have now successfully cloned your fork!
+You have now successfully cloned your fork! Close this issue and move on to the next one.
