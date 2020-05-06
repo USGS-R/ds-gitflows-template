@@ -19,14 +19,13 @@ jobs:
     if: github.actor == github.event.repository.owner.login
 
     # Steps represent a sequence of tasks that will be executed as part of the job
+    # Issue creation steps use GitHub action, https://github.com/marketplace/actions/create-issue-from-file
     steps:
     
-    # Uses GitHub action https://github.com/marketplace/actions/create-issue-from-file
-    
-    - name: First issue
-      uses: peter-evans/create-issue-from-file@v2
-      with:
-        title: An example issue
-        content-filepath: ./inst/issue_01.md
-        assignees: lindsayplatt
+      - name: First issue
+        uses: peter-evans/create-issue-from-file@v2
+        with:
+          title: An example issue
+          content-filepath: ./inst/issue_01.md
+          assignees: lindsayplatt
         
