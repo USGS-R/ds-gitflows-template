@@ -4,8 +4,7 @@ Scenario: You are pointed to a code repository on GitHub (this one) for a projec
 
 So far in the GitHub lessons, you've learned about using GitHub for version control to make and save changes (commit) and merge those changes into the code (pull request). You were also taught how to use branches to keep your code separate from the canonical codebase. However, that is not the only workflow that can be followed when using Git and GitHub. In our group, we use a slightly different version in order to manage simultaneous development. Below is a generic depiction of our version control workflow. It is known more widely as the "fork-and-pull workflow".
 
-image won't work right now
-![generic workflow](/images/logo.png)
+![image](https://user-images.githubusercontent.com/13220910/81212295-4bf05a80-8f9a-11ea-8302-99a231f61480.png)
 
 explain workflow with technical text here & image
 
