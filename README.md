@@ -4,11 +4,11 @@ This template repository contains the issues and starting content to teach the D
 
 ## Getting started ...
 
-### if you are a learner
+### ... if you are a learner
 
 Go to the repo that matches your username, `USGS-R/gs-gitflows-[username]`, and start with issue #1.
 
-### if you are leading the course
+### ... if you are leading the course
 
 1. Create a new repository based on this template repo using the naming convention `gs-gitflows-[username]` for each participant. These will be considered the canonical repository for each participant.
 1. Go to each of these new repositories you just made and star them. This will manually trigger the workflow that creates the necessary GitHub issues to complete the training using GitHub actions.
