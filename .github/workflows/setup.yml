@@ -21,6 +21,10 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     # Issue creation steps use GitHub action, https://github.com/marketplace/actions/create-issue-from-file
     steps:
+      
+      # Seems like you need this first for all actions ...
+      - name: Checkout repository
+        uses: actions/checkout@v1
     
       - name: First issue
         uses: peter-evans/create-issue-from-file@v2
