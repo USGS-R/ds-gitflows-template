@@ -1,0 +1,32 @@
+# This workflow should be run once by starring the repo to create the needed issues.
+
+name: Setup repo by creating issues
+
+# Manually trigger this workflow for setting it up by clicking the star button. Only do this once.
+# Borrowed from https://dev.to/s_abderemane/manual-trigger-with-github-actions-279e
+on:
+  watch:
+    types: [started]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Only allows repo owner to initiate
+    if: github.actor == github.event.repository.owner.login
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    
+    # Uses GitHub action https://github.com/marketplace/actions/create-issue-from-file
+    
+    - name: First issue
+      uses: peter-evans/create-issue-from-file@v2
+      with:
+        title: An example issue
+        content-filepath: ./inst/issue_01.md
+        assignees: lindsayplatt
+        
