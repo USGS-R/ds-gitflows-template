@@ -15,4 +15,4 @@ There is a main version of the code that people are collaboratively developing (
 We are going to walk through each of these steps within the workflow in this lesson. We will also learn about merge conflicts and what a `.gitignore` file is all about. 
 
 ----
-**Action:** Close this issue after you read about the workflow.
+**Action:** Close this issue after you read about the workflow and proceed to the next issue in sequential order.
