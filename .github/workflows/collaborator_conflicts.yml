@@ -8,8 +8,9 @@ on:
     types: [closed]
 
 jobs:
-  # This workflow contains a single job called "build"
-  build:
+  
+  # This job builds if the issue closure is labeled trigger-conflict
+  build_if_conflict:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -46,3 +47,11 @@ jobs:
           file-path: ./dryville_story.md
           commit-msg: add storing-water section
           github-token: ${{ secrets.GITHUB_TOKEN }}
+
+  # Idea from https://github.community/t5/GitHub-Actions/Workflow-is-failing-if-no-job-can-be-ran-due-to-condition/td-p/38085
+  always_job:
+    name: Always run job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Always run
+        run: echo "This job is used to prevent the worflow status from showing failed if the build_if_collab job is skipped."
