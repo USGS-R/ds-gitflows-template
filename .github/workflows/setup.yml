@@ -38,28 +38,71 @@ jobs:
           file-path: ./README.md
           commit-msg: instructions for starting the course
           github-token: ${{ secrets.GITHUB_TOKEN }}
-    
-      #- name: Issue 1
-      #  uses: peter-evans/create-issue-from-file@v2
-      #  with:
-      #    title: How to start working on a new project
-      #    content-filepath: ./.github/issues_to_create/issue_01.md
       
-      # A bunch more need to go here
+      # Add new issues!
+      - name: Issue 1
+        uses: peter-evans/create-issue-from-file@v2
+        with:
+          title: How to start working on a new project
+          content-filepath: ./.github/issues_to_create/issue_01.md
+            
+      - name: Issue 2
+        uses: peter-evans/create-issue-from-file@v2
+        with:
+          title: Create a copy of the main repository (fork)
+          content-filepath: ./.github/issues_to_create/issue_02.md
       
+      - name: Issue 3
+        uses: peter-evans/create-issue-from-file@v2
+        with:
+          title: Create a local copy (clone)
+          content-filepath: ./.github/issues_to_create/issue_03.md
+      
+      - name: Issue 4
+        uses: peter-evans/create-issue-from-file@v2
+        with:
+          title: Link your clone to the canonical repo
+          content-filepath: ./.github/issues_to_create/issue_04.md
+      
+      - name: Issue 5
+        uses: peter-evans/create-issue-from-file@v2
+        with:
+          title: Your first commit
+          content-filepath: ./.github/issues_to_create/issue_05.md
+      
+      - name: Issue 6
+        uses: peter-evans/create-issue-from-file@v2
+        with:
+          title: Make a second commit for practice
+          content-filepath: ./.github/issues_to_create/issue_06.md
+            
+      - name: Issue 7
+        uses: peter-evans/create-issue-from-file@v2
+        with:
+          title: Move your local changes to your online repo
+          content-filepath: ./.github/issues_to_create/issue_07.md
+      
+      - name: Issue 8
+        uses: peter-evans/create-issue-from-file@v2
+        with:
+          title: Request to add your changes to the canonical repo
+          content-filepath: ./.github/issues_to_create/issue_08.md
+            
+      # Closing this issue triggers a new commit bc it has the trigger-collab label
       - name: Issue 9
         uses: peter-evans/create-issue-from-file@v2
         with:
           title: Closing the loop
           content-filepath: ./.github/issues_to_create/issue_09.md
           labels: trigger-collab
-          
-      #- name: Issue 10
-      #  uses: peter-evans/create-issue-from-file@v2
-      #  with:
-      #    title: Get a collaborator's content locally
-      #    content-filepath: ./.github/issues_to_create/issue_10.md
       
+      - name: Issue 10
+        uses: peter-evans/create-issue-from-file@v2
+        with:
+          title: Get a collaborator's content locally
+          content-filepath: ./.github/issues_to_create/issue_10.md
+      
+      # Closing this issue triggers the merge conflict creation action bc it has the trigger-conflict label
       - name: Issue 11
         uses: peter-evans/create-issue-from-file@v2
         with:
@@ -67,12 +110,40 @@ jobs:
           content-filepath: ./.github/issues_to_create/issue_11.md
           labels: trigger-conflict
       
-      # A bunch of issues
+      - name: Issue 12
+        uses: peter-evans/create-issue-from-file@v2
+        with:
+          title: Pull down more new changes from your collaborator
+          content-filepath: ./.github/issues_to_create/issue_12.md
       
+      - name: Issue 13
+        uses: peter-evans/create-issue-from-file@v2
+        with:
+          title: Conquer a merge conflict!
+          content-filepath: ./.github/issues_to_create/issue_13.md
+      
+      - name: Issue 14
+        uses: peter-evans/create-issue-from-file@v2
+        with:
+          title: Request newest set of changes be merged to the canonical repo
+          content-filepath: ./.github/issues_to_create/issue_14.md
+      
+      - name: Issue 15
+        uses: peter-evans/create-issue-from-file@v2
+        with:
+          title: Close another loop after a merged PR
+          content-filepath: ./.github/issues_to_create/issue_15.md
+      
+      - name: Issue 16
+        uses: peter-evans/create-issue-from-file@v2
+        with:
+          title: Using a gitignore file
+          content-filepath: ./.github/issues_to_create/issue_16.md
+      
+      # Closing this issue triggers the README to be updated bc it has the trigger-complete label
       - name: Issue 17
         uses: peter-evans/create-issue-from-file@v2
         with:
           title: In conclusion ...
           content-filepath: ./.github/issues_to_create/issue_17.md
           labels: trigger-complete
-          
