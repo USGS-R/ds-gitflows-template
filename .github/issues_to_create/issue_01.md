@@ -1,5 +1,3 @@
-## How to start working on a new project
-
 Scenario: You are pointed to a code repository on GitHub (this one) for a project that you just joined. You need to start contributing to this codebase. Where do you start? 
 
 So far in the GitHub lessons, you've learned about using GitHub for version control to make and save changes (commit) and merge those changes into the code (pull request). You were also taught how to use branches to keep your code separate from the canonical codebase. However, that is not the only workflow that can be followed when using Git and GitHub. In our group, we use a slightly different version in order to manage collaborative development. Below is a generic depiction of our version control workflow. It is known more widely as the "fork-and-pull workflow".
