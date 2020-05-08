@@ -26,6 +26,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v1
     
+      # Replace the README with the course startup version
+      - name: Update README.md
+        run: |
+          cat ./.github/commit_content/readme_participant_start.md > ./README.md
+      
+      # Updating a file uses the GitHub action, https://github.com/marketplace/actions/update-file-on-github
+      - name: Commit updates to README.md
+        uses: alexesprit/action-update-file@master
+        with:
+          file-path: ./README.md
+          commit-msg: instructions for starting the course
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+    
       #- name: Issue 1
       #  uses: peter-evans/create-issue-from-file@v2
       #  with:
@@ -53,4 +66,13 @@ jobs:
           title: Add two new sections of the story
           content-filepath: ./.github/issues_to_create/issue_11.md
           labels: trigger-conflict
+      
+      # A bunch of issues
+      
+      - name: Issue 17
+        uses: peter-evans/create-issue-from-file@v2
+        with:
+          title: In conclusion ...
+          content-filepath: ./.github/issues_to_create/issue_17.md
+          labels: trigger-complete
           
