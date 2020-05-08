@@ -26,10 +26,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v1
     
-      - name: First issue
+      - name: Issue 1
         uses: peter-evans/create-issue-from-file@v2
         with:
-          title: An second example issue
+          title: How to start working on a new project
           content-filepath: ./.github/issues_to_create/issue_01.md
-          assignees: lindsayplatt
-        
+      
+      # A bunch more need to go here
+      
+      - name: Issue 9
+        uses: peter-evans/create-issue-from-file@v2
+        with:
+          title: Closing the loop
+          content-filepath: ./.github/issues_to_create/issue_09.md
+          labels: trigger-collab
+          
