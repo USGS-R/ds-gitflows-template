@@ -1,4 +1,4 @@
-# ds-gitflows-template
+# USGS Data Science tutorial for Git and GitHub workflow
 
 This template repository contains the issues and starting content to teach the DS fork-and-pull style workflow. For the full experience, it requires someone else (listed as @lindsayplatt in these instructions) to review and merge your pull requests. 
 
