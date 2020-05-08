@@ -4,7 +4,7 @@ This template repository contains the issues and starting content to teach the D
 
 ## I'm a learner
 
-Go to the repo that matches your username, `USGS-R/gs-gitflows-[username]`, and start with issue #1.
+Go to the repo that matches your username, `USGS-R/gs-gitflows-[username]`.
 
 ## I'm leading the course
 
