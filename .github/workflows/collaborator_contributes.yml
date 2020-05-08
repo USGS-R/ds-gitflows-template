@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     # Only run the job if the closed issue has the label "trigger-collab"
-	  # Idea borrowed from: https://github.community/t5/GitHub-Actions/Do-something-if-a-particular-label-is-set/td-p/40712
+    # Idea borrowed from: https://github.community/t5/GitHub-Actions/Do-something-if-a-particular-label-is-set/td-p/40712
     if: github.event.label.name == 'trigger-collab'
     
     # Steps represent a sequence of tasks that will be executed as part of the job
