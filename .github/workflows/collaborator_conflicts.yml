@@ -1,6 +1,6 @@
 # This workflow will be run when an issue labeled "trigger-conflict" is closed.
 
-name: Collaborator contributes to file and causes conflict
+name: Collaborator causes conflict
 
 # Trigger a workflow for a closed issue
 on:
