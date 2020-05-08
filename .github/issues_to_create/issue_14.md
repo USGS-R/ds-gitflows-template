@@ -13,4 +13,4 @@ We are now ready to push our local changes (including the resolved merge conflic
 1. Once you add a title and description, click the cog next to the `Reviewers` feature on the right bar and select @lindsayplatt as the reviewer from the drop-down menu. 
 1. Now, click "Create pull request".
 
-You have successfully made a second pull request! Close this issue and move on to the next one.
+You have successfully made a second pull request! Wait for your PR to be reviewed and merged. Once your PR has been merged, close this issue and move on to the next one.
