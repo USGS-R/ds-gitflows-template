@@ -10,5 +10,6 @@ Go to the repo that matches your username, `USGS-R/gs-gitflows-[username]`.
 
 1. Create a new repository based on this template repo using the naming convention `gs-gitflows-[username]` for each participant. These will be considered the canonical repository for each participant.
 1. Go to each of these new repositories you just made and star them. This will manually trigger the workflow that creates the necessary GitHub issues to complete the training using GitHub actions.
+1. Give each participant `triage` access to their repository. This will allow them to make PRs and close issues, but will prevent them from being able to write directly to the master repository. The participant will need to accept the invitation.
 1. Be prepared to review and merge 3 pull requests per participant (one with their first two commits, one with merge conflicts resolved, one with changes to the `.gitignore` file).
 1. The rest of the course, should run automatically.

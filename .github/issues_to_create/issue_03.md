@@ -3,7 +3,7 @@ The next step in our workflow is to clone your fork. This creates a local copy o
 ----
 **Action:** Clone this repo!
 
-1. Open the GitHub page for your fork, e.g. `https://github.com/[username]/ds-gitflows-[username]`
+1. Open the GitHub page for your fork, e.g. `https://github.com/[username]/ds-gitflows-[username]`. *A navigation note*: from your fork, you can easily navigate back to the canonical repository by clicking the link next to "forked from" at the top, just below your forked repository name. From the canonical repo page, you can get back to your fork by clicking the fork button on the canonical repo and choosing your existing fork from the list.
 2. Click the `Clone or download` button. Again, make sure you are ***on your fork***. This means that you see `[username]/ds-gitflows-[username]` at the top of the page with `forked from USGS-R/ds-gitflows-[username]` underneath.
 3. Copy the SSH address, not the HTTPS one (see image below). We should have already set up your SSH keys, but if not, follow [these instructions to generate an SSH key](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) and [these instructions to add the SSH key to your GitHub account](https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account). When you come back to the page, you should have the SSH option.
 
