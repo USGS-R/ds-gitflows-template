@@ -31,11 +31,11 @@ jobs:
         run: |
           cat ./.github/commit_content/readme_participant_start.md > ./README.md
       
-      # Updating a file uses the GitHub action, https://github.com/marketplace/actions/update-file-on-github
+      # Updating a file uses the GitHub action, https://github.com/marketplace/actions/update-files-on-github
       - name: Commit updates to README.md
-        uses: alexesprit/action-update-file@master
+        uses: test-room-7/action-update-file@v1
         with:
-          file-path: ./README.md
+          file-path: README.md
           commit-msg: instructions for starting the course
           github-token: ${{ secrets.GITHUB_TOKEN }}
       
