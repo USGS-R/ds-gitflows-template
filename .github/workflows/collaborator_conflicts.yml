@@ -40,11 +40,11 @@ jobs:
 
           cat ./.github/commit_content/storing_water.md >> ./dryville_story.md
       
-      # Updating a file uses the GitHub action, https://github.com/marketplace/actions/update-file-on-github
+      # Updating a file uses the GitHub action, https://github.com/marketplace/actions/update-files-on-github
       - name: Commit updates to dryville_story.md
-        uses: alexesprit/action-update-file@master
+        uses: test-room-7/action-update-file@v1
         with:
-          file-path: ./dryville_story.md
+          file-path: dryville_story.md
           commit-msg: add storing-water section
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
