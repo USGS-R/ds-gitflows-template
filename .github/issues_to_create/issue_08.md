@@ -5,9 +5,9 @@ For now, we will discuss how to open a pull request.
 ----
 **Action:** Open a pull request. 
 
-1. Go to **your fork's** webpage (`https://github.com/[username]/ds-gitflows-[username]`). At the top, you will see a "New pull request button" (see image below). Click that button.
+1. Go to **your fork's** webpage (`https://github.com/[username]/ds-gitflows-[username]`). Near the top, you will see a "Contribute" button (see image below). Click that button, and then click "Open pull request".
 
-![image](https://user-images.githubusercontent.com/13220910/81233801-17da6100-8fbd-11ea-9a84-07c9a9a3e705.png)
+![image](https://user-images.githubusercontent.com/5882743/154136024-be54e8a7-7c24-4cca-a1d2-5e376547f59c.png)
 
 2. Before your pull request is actually created, you should verify that you are requesting the correct changes be merged with the correct repository. For now, we are not working with branches, so don't worry about the fields that say "master". However, you should verify that the `base repository` is set to the project canonical repo (`USGS-R/ds-gitflows-[username]` in this case) and that the `head repository` is set to your fork (`[username]/ds-gitflows-[username]`). You also need to verify the commits lists. It should list the two that you just created.
 3. When you have checked those things, you can click the green "Create pull request" button.
