@@ -22,7 +22,7 @@ Welcome to the end of the hands on tutorial with Git and GitHub! You have now be
 
 ### Moving your local commits to your fork
 
-1. Run `git push origin master`
+1. Run `git push origin main`
 1. Look at the "commits" page on your fork on GitHub to see your new commits.
 
 ### Adding your changes to the canonical repository
@@ -32,7 +32,7 @@ Welcome to the end of the hands on tutorial with Git and GitHub! You have now be
 1. Click "Create pull request".
 1. Add a title and description. Include a peer as a reviewer and link to any related issues by adding `#[issue number]` in your description.
 1. The reviewer will merge the changes.
-1. Close the loop by pulling down the changes from upstream to your local repo - `git pull upstream master`
+1. Close the loop by pulling down the changes from upstream to your local repo - `git pull upstream main`
 
 ### Handling merge conflicts
 
