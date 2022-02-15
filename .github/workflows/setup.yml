@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
 
     # Only allows repo owner to initiate
-    if: github.actor == 'jesse-ross'
+    if: github.actor == 'lindsayplatt'
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     # Issue creation steps use GitHub action, https://github.com/marketplace/actions/create-issue-from-file
