@@ -32,6 +32,6 @@ You start thinking... a reservoir (you can call it a lake) above town could real
 8. Now you are left with the merge conflict symbols and the correct version of the "Storing Water for a Rainy Day" section. Delete all of the symbols related to the merge conflict (`<<<<<<< HEAD`, `=======`, and `>>>>>>> [random letters/numbers]`). Now, you should be back to where you started (which happens in merge conflict resolution sometimes).
 9. Save the file.
 10. The last step for resolving a merge confict is to commit your changes. Follow the same pattern as before. Running `git status` will show you that you have an unresolved merge conflict. Just as before, run `git add dryville_story.md` to stage your changed file. Then commit by running `git commit -m "resolve merge conflict"`. 
-11. Now, when you run `git status` you will see that you don't have any changes to commit (but your branch still ahead of origin/master - see next issue).
+11. Now, when you run `git status` you will see that you don't have any changes to commit (but your branch still ahead of `origin/main` - see next issue).
 
 You successfully resolved a conflict! Close this issue and move on to the next one.
