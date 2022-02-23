@@ -8,6 +8,6 @@ At this point, we have made our file changes and are satisfied with the state of
 1. After you run this successfully, you will see "To github.com:[username]/ds-gitflows-template.git" near the bottom. It is telling you where those changes went, which is to your remote fork. Yay!
 1. Go to your fork's webpage (`https://github.com/[username]/ds-gitflows-[username]`) and click on the `commits` button (see image below). You should see your two commit messages appear there.
 
-![image](https://user-images.githubusercontent.com/13220910/81228151-2b80ca00-8fb3-11ea-9ffe-885791732755.png)
+![image](https://user-images.githubusercontent.com/13890601/155426436-2cbe9566-78c1-48d9-9c9d-9119df45f3d6.png)
 
 You have pushed your changes up to GitHub! Close this issue and move on to the next one.
