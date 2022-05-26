@@ -15,6 +15,6 @@ git add .gitignore
 git commit -m "add downloaded image to gitignore"
 git push origin main
 ```
-8. Finally, create a pull request. Make sure to add @lindsayplatt as a reviewer of your PR and reference this issue using `#[issue number]`. Reminder - you can look back at closed issues to follow along with past instructions by clicking "Issues" and then "Closed" on the GitHub page for the canonical repository.
+8. Finally, create a pull request. Make sure to add your course contact as a reviewer of your PR and reference this issue using `#[issue number]`. Reminder - you can look back at closed issues to follow along with past instructions by clicking "Issues" and then "Closed" on the GitHub page for the canonical repository.
 
 Once you open your PR, wait for it to be reviewed and merged. Once your PR has been merged, close this issue and go to the next one.
